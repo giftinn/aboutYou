@@ -10,13 +10,17 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Selamatt hari kasih sayanggg, pacarkuuu
-  
-tau gaaa??!! aku seneng bisa ngerayain valentine kali ini sama kamuuu. kayaaa apa ya, jadi makin kerasa lengkap aja gituu valentine kali inii karena ada kamu as my lovely boyfiee. makasihh yaa udah mauu stay sama akuu yang masih super childish ini huhuhuu, makasihh udah nemenin hari-hari aku juga sayangg. makasihh juga udah mau dengerin cerita-cerita random aku, terus masih mau ngadepin aku yang suka ngambekan, childish inii. makasih kamu udah mau terus milihh aku yaa sayangg, ituu berartii banget buat aku daripada hadiah-hadiah lain. 
+  const fullText = `Mave,
 
-kadangg, aku tuh mikirr kayaa ini aku abis ngelakuin apasihh kok dapat karmanya sebaik iniii. iyaa ketemu kamu dan bahkan sekarang tetap jadi pacar kamu tuh karma terbaik menurut aku. aku harap kamu tau sesayangg apa aku sama kamuu, makasihh yaa udah jadi kamuu yang saat inii, yang sabar, yang pengertian, yang bikin hari-hari aku jadi makin seruu. dan aku bener-bener excited buat terus stay longer sama kamu dan bikin banyak kenangan lagii. kamu benerann deserve bahagiaaa banyaaa-banyaa, aku harap kamu selalu bahagia, seneng, dijauhin dari apa yang namanyaa sedii-sediii. kalau ada yang bikin sedii lapor aja ke akuu, aku yang maju paling depan buat nyenengin kamu lagi.
+its finally our third month of being with eachother and i just wanna say thank you for always loving me the way you do yaaa.
 
-With all my heart, your lovely girlfriend`;
+ga kerasa yaa udah tiga bulan bareng, maybe kedengeran ga selama itu, tapi kita udah bikin banyaak kenangan yang berarti bagiku. every laugh, every convo and every little thing we do together always means sooo much to mee :3
+
+makasii ia udah mau jadi tempat aku ceritaa, tempat aku pulang dan tempat ternyaaaman aku. sama kamu, aku ngerasa dicintaii, dipahami, dan diterima apaa adanyaa 
+
+‎i hope we can grow togetherr, keep loving eachother, and keep making moreee memories. no matter what happens, i'll always be thankful to have youu
+
+happy 3 months, sayangg! i love you more than words can explainn <3`;
 
   useEffect(() => {
     let currentIndex = 0;
